@@ -1,1 +1,1 @@
-# landing-page
+This is a landing page created for the Odin Project to put together basic HTML and CSS.
