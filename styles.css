@@ -66,7 +66,6 @@ a {
     width: 100%;
 }
 
-
 .left-hero {
     flex: 1;
 }
@@ -107,6 +106,7 @@ button {
 .midsection {
     padding-bottom: 30px;
 }
+
 .midtitle {
     font-size: 36px;
     font-weight: 900;
@@ -151,4 +151,35 @@ button {
 .quoteauthor {
     align-self: flex-end;
     font-weight: 700;
+}
+
+.cta {
+    padding: 30px 100px;
+    height: 250px;
+}
+
+.ctacontainer {
+    display: flex;
+    background-color: #3882F6;
+    /* margin: auto 0; */
+    padding: 20px 80px;
+    border-radius: 8px;
+}
+
+.left-cta {
+    flex: 3;
+}
+
+.ctatext1 {
+    font-size: 20px;
+    font-weight: 700;
+    color:  #F9FAF8;
+}
+
+.ctatext2 {
+    color: #F9FAF8;
+}
+
+.right-cta {
+    flex: 1;
 }
