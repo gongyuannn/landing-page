@@ -103,3 +103,31 @@ button {
     max-height: 100%;
     /* overflow: auto; */
 }
+
+.midsection {
+    padding-bottom: 30px;
+}
+.midtitle {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 50px
+}
+
+.info {
+    max-width: 150px;
+    text-align: center;
+}
+.mid-img {
+    height: 150px;
+    width: 150px;
+    border-radius: 4px;
+    border: 3px solid #3882F6;
+}
