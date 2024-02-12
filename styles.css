@@ -156,18 +156,22 @@ button {
 .cta {
     padding: 30px 100px;
     height: 250px;
+    display: flex;
+    align-items: center;
 }
 
 .ctacontainer {
+    flex:1;
     display: flex;
+    align-items: center;
     background-color: #3882F6;
-    /* margin: auto 0; */
+    height: 50%;
     padding: 20px 80px;
     border-radius: 8px;
 }
 
 .left-cta {
-    flex: 3;
+    flex: 2;
 }
 
 .ctatext1 {
@@ -182,4 +186,10 @@ button {
 
 .right-cta {
     flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.right-cta button {
+    border-color: #F9FAF8;
 }
