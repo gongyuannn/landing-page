@@ -63,7 +63,7 @@ a {
 }
 
 .left-hero {
-    max-width: 25rem;
+    max-width: 30rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -91,7 +91,7 @@ button {
 }
 
 .right-hero {
-    max-width: 25rem;
+    max-width: 35rem;
     display: flex;
     align-items: center;
     justify-content: right;
