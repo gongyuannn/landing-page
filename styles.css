@@ -88,6 +88,7 @@ button {
     padding: 5px 20px;
     border-radius: 8px;
     margin-bottom: 10px;
+    font-size: 18px;
 }
 
 .right-hero {
@@ -154,39 +155,32 @@ button {
 
 .cta {
     padding: 30px 100px;
-    height: 250px;
-    display: flex;
-    align-items: center;
 }
 
 .ctacontainer {
-    flex:1;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     background-color: #3882F6;
-    height: 50%;
-    padding: 20px 80px;
-    border-radius: 8px;
-}
-
-.left-cta {
-    flex: 2;
+    border-radius: 15px;
+    padding: 30px 100px;
 }
 
 .ctatext1 {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 700;
     color:  #F9FAF8;
 }
 
 .ctatext2 {
     color: #F9FAF8;
+    line-height: 1.5;
 }
 
 .right-cta {
-    flex: 1;
-    display: flex;
-    justify-content: center;
+    /* flex: 1; */
+    /* display: flex; */
+    /* justify-content: center; */
 }
 
 .right-cta button {
